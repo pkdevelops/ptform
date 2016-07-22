@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>Patient Form</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	</head>	
+	<body>
+		<div class="container">
+			<form name="patient" method='POST'>
+				<h3>Patient Information</h3>
+				<fieldset class="form-group">
+					<label for="name">Name:</label>
+					<input type="text" class="form-control" name="name" placeholder="First and Last name">
+					<small class="text-muted">First and Last name please.</small>
+				</fieldset>
+				<fieldset class="form-group">
+    				<label for="address">Address:</label>
+    				<input type="text" class="form-control" name="address" name="address" placeholder="Address">
+  				</fieldset>
+  				<fieldset class="form-group">
+    				<label for="patient-email">Email:</label>
+    				<input type="text" class="form-control" name="email" placeholder="Email">
+  				</fieldset>
+  				<fieldset class="form-group">
+    				<label for="patient-phone">Phone:</label>
+    				<input type="text" class="form-control" name="phone" placeholder="Phone">
+  				</fieldset>
+  				<h3>Insurance Information</h3>
+  				<fieldset class="form-group">
+    				<label for="patient-group">Insurance Group:</label>
+    				<input type="text" class="form-control" name="group" placeholder="Group No.">
+  				</fieldset>
+  				<fieldset class="form-group">
+    				<label for="patient-policy">Insurance Policy:</label>
+    				<input type="text" class="form-control" name="policy" placeholder="Policy No.">
+  				</fieldset>
+  				<input type="submit" value="Submit">
+  							</form>
+		</div>
+	</body>
+</html>
